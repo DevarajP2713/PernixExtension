@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "pernix-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/pernix/PernixApplicationCustomizer.js",
+          "manifest": "./src/extensions/pernix/PernixApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PernixApplicationCustomizerStrings": "lib/extensions/pernix/loc/{locale}.js"
+  }
+}

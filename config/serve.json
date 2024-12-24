@@ -1,0 +1,35 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://pernixgroup.sharepoint.com/sites/TestIntranet/SitePages/PernixIntranet.aspx",
+      "customActions": {
+        "96b3e07b-db60-47d6-8896-ebed8ccc7cc8": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "pernix": {
+      "pageUrl": "https://pernixgroup.sharepoint.com/sites/TestIntranet/SitePages/PernixIntranet.aspx",
+      "customActions": {
+        "96b3e07b-db60-47d6-8896-ebed8ccc7cc8": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Tech URL */
+// https://technorucs365.sharepoint.com/sites/PernixIntranet/SitePages/PernixIntranet.aspx
+
+/* UAT URL */
+// https://pernixgroup.sharepoint.com/sites/TestIntranet/SitePages/PernixIntranet.aspx

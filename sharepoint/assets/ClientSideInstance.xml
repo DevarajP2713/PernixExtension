@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="Pernix"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="96b3e07b-db60-47d6-8896-ebed8ccc7cc8"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>
