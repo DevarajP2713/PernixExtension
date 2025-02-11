@@ -41,3 +41,7 @@
 [data-custom-class="nonAdmin"] .ms-Nav-compositeLink[name="Edit"] {
   display: none !important;
 }
+
+.ms-HubNav {
+  display: none !important;
+}
